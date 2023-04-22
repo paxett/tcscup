@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    <com.paxet.tcscup.ui.components.DsVerticalContainer-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content">-->
+
+    <com.paxet.tcscup.ui.components.DsItemCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:subtitle="1111"
+        android:title="Hello world"
+        app:close_button_visibility="VISIBLE"
+        app:item_background="WHITE" />
+
+    <com.paxet.tcscup.ui.components.DsItemCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:subtitle="2222"
+        android:title="Goodbye world"
+        app:close_button_visibility="GONE"
+        app:item_background="GREY" />
+
+    <!--    </com.paxet.tcscup.ui.components.DsVerticalContainer>-->
+
+</LinearLayout>
